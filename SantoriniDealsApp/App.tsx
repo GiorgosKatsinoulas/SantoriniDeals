@@ -7,12 +7,15 @@
 import React from 'react';
 import {SafeAreaProvider} from 'react-native-safe-area-context';
 import StackNavigator from './src/navigation/StackNavigator';
+import {GestureHandlerRootView} from 'react-native-gesture-handler';
 
 function App(): JSX.Element {
   return (
-    <SafeAreaProvider>
-      <StackNavigator />
-    </SafeAreaProvider>
+    <GestureHandlerRootView style={{flex: 1}}>
+      <SafeAreaProvider>
+        <StackNavigator />
+      </SafeAreaProvider>
+    </GestureHandlerRootView>
   );
 }
 
