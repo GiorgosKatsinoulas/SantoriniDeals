@@ -45,6 +45,7 @@
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = SantoriniDealsApp/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		89C6BE57DB24E9ADA2F236DE /* Pods-SantoriniDealsApp-SantoriniDealsAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SantoriniDealsApp-SantoriniDealsAppTests.release.xcconfig"; path = "Target Support Files/Pods-SantoriniDealsApp-SantoriniDealsAppTests/Pods-SantoriniDealsApp-SantoriniDealsAppTests.release.xcconfig"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		EFD2BD522B0D330400D18C51 /* MaterialIcons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = MaterialIcons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/MaterialIcons.ttf"; sourceTree = "<group>"; };
 		EFEB16392B0D17A400E2B02F /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "SantoriniDealsApp/GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -90,6 +91,7 @@
 			children = (
 				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
 				13B07FB01A68108700A75B9A /* AppDelegate.mm */,
+				EFD2BD542B0D330D00D18C51 /* Fonts */,
 				13B07FB51A68108700A75B9A /* Images.xcassets */,
 				EFEB16392B0D17A400E2B02F /* GoogleService-Info.plist */,
 				13B07FB61A68108700A75B9A /* Info.plist */,
@@ -149,6 +151,14 @@
 				89C6BE57DB24E9ADA2F236DE /* Pods-SantoriniDealsApp-SantoriniDealsAppTests.release.xcconfig */,
 			);
 			path = Pods;
+			sourceTree = "<group>";
+		};
+		EFD2BD542B0D330D00D18C51 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				EFD2BD522B0D330400D18C51 /* MaterialIcons.ttf */,
+			);
+			name = Fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
