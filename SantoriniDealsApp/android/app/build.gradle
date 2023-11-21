@@ -73,9 +73,9 @@ android {
 
     compileSdkVersion rootProject.ext.compileSdkVersion
 
-    namespace "com.santorinidealsapp"
+    namespace "gr.santorinideals"
     defaultConfig {
-        applicationId "com.santorinidealsapp"
+        applicationId "gr.santorinideals"
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
         versionCode 1
