@@ -1,4 +1,4 @@
-package com.santorinidealsapp;
+package gr.santorinideals;
 
 import com.facebook.react.ReactActivity;
 import com.facebook.react.ReactActivityDelegate;
