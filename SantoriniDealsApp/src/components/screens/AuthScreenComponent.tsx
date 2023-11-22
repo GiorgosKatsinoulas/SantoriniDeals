@@ -1,6 +1,5 @@
 import React, {FC} from 'react';
-import {Text} from 'react-native';
-import {StyleSheet, View} from 'react-native';
+import {StyleSheet, Text, View} from 'react-native';
 
 const AuthScreenComponent: FC = () => {
   return (

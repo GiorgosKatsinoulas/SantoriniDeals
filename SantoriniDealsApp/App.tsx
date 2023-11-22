@@ -5,9 +5,9 @@
  * @format
  */
 import React from 'react';
+import {GestureHandlerRootView} from 'react-native-gesture-handler';
 import {SafeAreaProvider} from 'react-native-safe-area-context';
 import StackNavigator from './src/navigation/StackNavigator';
-import {GestureHandlerRootView} from 'react-native-gesture-handler';
 
 function App(): JSX.Element {
   return (
