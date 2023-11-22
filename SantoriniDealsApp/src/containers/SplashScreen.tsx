@@ -13,7 +13,7 @@ const SplashScreen: FC = () => {
   useEffect(() => {
     const timeout = setTimeout(() => {
       const navigateToScreen = isAuthenticated
-        ? StackNavigationConstants.DASHBOARD_SCREEN
+        ? StackNavigationConstants.TABS
         : StackNavigationConstants.AUTH_SCREEN;
       //@ts-ignore
       navigation.navigate(navigateToScreen);
