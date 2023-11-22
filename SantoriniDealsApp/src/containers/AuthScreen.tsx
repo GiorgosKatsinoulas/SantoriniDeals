@@ -1,5 +1,5 @@
 import React, {FC} from 'react';
-import AuthScreenComponent from '../components/screens/AuthScreenComponent';
+import AuthScreenComponent from '../components/screens/AuthScreen/AuthScreenComponent';
 
 const AuthScreen: FC = () => {
   return (

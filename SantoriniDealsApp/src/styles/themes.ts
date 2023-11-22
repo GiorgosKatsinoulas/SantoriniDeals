@@ -6,13 +6,13 @@ export interface Theme {
 }
 
 export const lightTheme: Theme = {
-  backgroundColor: '#ffffff',
-  textColor: '#000000',
+  backgroundColor: '#FFFFFF',
+  textColor: '#2C2929',
   buttonColor: '#00A5E3',
 };
 
 export const darkTheme: Theme = {
-  backgroundColor: '#000000',
-  textColor: '#ffffff',
-  buttonColor: '#ff0000',
+  backgroundColor: '#0A0933',
+  textColor: '#FFFFFF',
+  buttonColor: '#EB6958',
 };
